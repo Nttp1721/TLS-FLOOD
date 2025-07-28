@@ -138,7 +138,7 @@ func attackThread(target string, rps int, duration int, wg *sync.WaitGroup) {
 
 func main() {
     if len(os.Args) != 5 {
-        fmt.Println("Usage: ./flood_tls_go <target> <threads> <rps> <duration>")
+        fmt.Println("Usage: ./tls-flood <target> <threads> <rps> <duration>")
         return
     }
 
