@@ -1,0 +1,29 @@
+# 🔥 TLS-FLOOD (GoLang, HTTP/2, TLSv1.3) [NO PROXY]
+
+A high-performance TLS Flooder written in Go, designed for Layer7 stress testing.  
+Simulates real browser behavior with HTTP/2 over real TLS — no proxies used.
+
+> 🚨 Educational and testing purposes only. Use responsibly.
+
+---
+
+## ✨ Features
+
+- ✅ HTTP/2 + TLS (real TLS handshake)
+- ✅ No proxy required (direct attack)
+- ✅ Bypass Cloudflare (cf_clearance, __cf_bm)
+- ✅ Randomized User-Agent, Referer, Path, Cookie
+- ✅ Header spoofing (X-Forwarded-For, X-Requested-With, etc.)
+- ✅ Multiple HTTP methods: `GET`, `HEAD`, `OPTIONS`
+- ✅ Connection KeepAlive
+- ✅ Threaded, optimized RPS control
+- ✅ Fake browser behavior (Accept, Accept-Encoding, Cache-Control...)
+- ✅ Target: Must be HTTPS
+
+---
+
+## ⚙️ Usage
+
+```bash
+go build -o tls-flood tls-flood.go
+./tls-flood https://target.com 100 500 60
