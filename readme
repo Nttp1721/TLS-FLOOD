@@ -25,5 +25,8 @@ Simulates real browser behavior with HTTP/2 over real TLS — no proxies used.
 ## ⚙️ Usage
 
 ```bash
+git clone https://github.com/Nttp1721/TLS-FLOOD
+cd TLS-FLOOD
+go mod tidy
 go build -o tls-flood tls-flood.go
 ./tls-flood https://target.com 100 500 60
