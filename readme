@@ -1,9 +1,6 @@
 # 🔥 TLS-FLOOD (GoLang, HTTP/2, TLSv1.3) [NO PROXY]
 
-A high-performance TLS Flooder written in Go, designed for Layer7 stress testing.  
-Simulates real browser behavior with HTTP/2 over real TLS — no proxies used.
-
-> 🚨 Educational and testing purposes only. Use responsibly.
+OPEN SOURCE
 
 ---
 
